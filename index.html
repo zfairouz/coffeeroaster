@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffeeroasters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { 
+                Frau : ["Fraunces", "Arial"],
+                Barl : ["Barlow", "Arial"]
+            },
+            colors: {
+                Darkcyan:"#0E8784",
+                Darkgb: "#333D4B",
+                Paleorange: "#FDD6BA",
+                Grey: "#83888F",
+                lightC: "#FEFCF7",
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="font-Frau bg-lightC ">
+    <header class="flex justify-between items-center py-8 px-6 md:mx-[39px] md:px-0 lg:mx-[80px] ">
+      <div class="w-[200px]">
+        <img src="pictures/Group 6.png" alt="Logo">
+      </div>
+        <nav class="text-center font-Barl flex gap-x-12 text-Grey text-[14px] hidden md:block space-x-[32px] text-[12px] font-bold ">
+          <a>HOME</a> 
+          <a href="page2.html">ABOUT US</a>  
+          <a>CREATE YOUR PLAN </a>
+        </nav>
+        <button class="md:hidden lg:hidden " >
+          <i class="ri-menu-line text-3xl font-bold text-Darkgb"></i>
+       </button>
+    </header>
+    <!-- Ending of the header -->
+
+    <main>
+      <section class="bg-[url('pictures/Bitmap1.png')] bg-cover bg-no-repeat bg-center mx-6 mt-6 py-[100px] px-6 bg-[url('/pictures/Bitmap')] rounded-lg md:mx-[39px] lg:mx-[80px]" >
+        <div class="md:w-[398px] md:ml-[5px] lg:ml-[85px] lg:w-[493px]">
+          <div class="mb-6 mx-[3px]">
+            <h1 class="text-lightC text-[45px] lg:text-[72px] font-bold leading-tight text-center md:text-left">Great coffee made simple.</h1>
+          </div>
+          <p class="text-lightC text-[15px] lg:text-[16px] leading-[30px] md:text-left font-Barl text-center mb-[39px]">
+            Start your mornings with the world’s best coffees. Try our expertly curated artisan 
+            coffees from our best roasters delivered directly to your door, at your schedule.
+          </p>
+          <div class="flex justify-center items-center md:justify-start  ">
+            <button class="text-lightC text-[18px] font-bold bg-Darkcyan rounded py-[15px] px-[31px] rounded ">
+              Create your plan
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Ending of the section -->
+
+      <section class="mt-[120px]">
+        <h1 class="flex justify-center items-center mb-[13px] text-Grey lg:text-[150px] md:text-[118px] text-[72px] font-bold relative md:top-[80px]">our collection</h1>
+
+        <section class="grid gap-[48px]  px-[46px]  md:mx-[39px] lg:flex lg:justify-center relative md:top-[-50px]">
+            <div class="md:flex md:gap-[36px] md:items-center lg:flex-none lg:block ">
+              <div class="flex justify-center lg:mb-[71px]">
+                <img src="pictures/kopi1 copy.png" alt="img-1" class="w-64 " >
+              </div>
+              <div>
+                <h2 class="font-bold text-[24px] mb-[16px] text-center md:text-start lg:text-center">Gran Expresso</h2>
+                <p class="text-center md:text-start text-[15px] font-Barl leading-[25px] md:w-[282px] lg:text-center md:text-center">Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+              </div>
+            </div>
+            
+            <div class="md:flex md:gap-[36px] md:items-center lg:flex-none lg:block">
+              <div class="flex justify-center lg:mb-[71px]">
+                <img src="pictures/kopi2.png" alt="img-2" class="w-64" >
+              </div>
+              <div>
+                <h2 class="font-bold text-[24px] mb-[16px] text-center md:text-start lg:text-center" >Planalto</h2>
+                <p class="text-center md:text-start text-[15px] font-Barl leading-[25px] md:w-[282px] lg:text-center">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+              </div>
+            </div> 
+
+            <div class="md:flex md:gap-[36px] md:items-center lg:flex-none lg:block">
+              <div class="flex justify-center lg:mb-[71px]">
+                <img src="pictures/kopi3.png" alt="img-3" class="w-64" >
+              </div>
+              <div>
+                <h2 class="font-bold text-[24px] mb-[16px] text-center md:text-start lg:text-center">Piccollo</h2>
+                <p class="text-center md:text-start text-[15px] font-Barl leading-[25px] md:w-[282px] lg:text-center">Mild and smooth blend featuring notes of toasted almond and dried cherry </p>
+              </div>
+            </div>
+
+            <div class="md:flex md:gap-[36px] md:items-center lg:flex-none lg:block">
+              <div class="flex justify-center lg:mb-[71px]">
+                <img src="pictures/kopi4.png" alt="img-4" class="w-64" >
+              </div>
+              <div>
+                <h2 class="font-bold text-[24px] mb-[16px] text-center md:text-start lg:text-center">Danche</h2>
+                <p class="text-center md:text-start text-[15px] font-Barl leading-[25px] md:w-[282px] lg:text-center">LEthiopian hand-harvested blend densely packed with vibrant fruit notes</p>
+              </div>
+            </div>
+          </section>
+      </section>
+      <!-- Ending of the section -->
+
+      <section class="bg-[#2C343E] mx-[24px] rounded-lg h-[902px] my-[120px] md:h-[573px] md:mx-[39px] lg:mx-[80px]">
+        <div class="px-[24px] py-[64px] md:mx-[72px] md:leading-[25px] ">
+          <h2 class="text-3xl font-bold text-center mb-[24px] text-lightC">Why shoose us?</h2>
+          <p class="text-lightC text-center md:mx-[17px] text-[15px] font-Barl leading-[25px] lg:mx-[340px]">A large part of our role is choosing which particular coffees will be featured  in our range. This means working closely with the best coffee growers to give you a more impactful experience on every level.</p>
+        </div>
+
+        <div class="lg:flex lg:gap-x-10 lg:justify-center space-y-10 lg:space-y-0 mx-[63px]">
+
+          <div class="bg-Darkcyan rounded-lg w-[350px] h-[382px]  lg:w-[350px] lg:h-[382px] md:w-[573px] md:h-auto ">
+            <div class="mx-[47px] lg:mx-[47px] lg:flex-none md:ml-[70px] md:flex md:items-center md:justify-center md:space-x-10 md:py-[42px] lg:space-x-0 lg:py-0">
+
+              <div class="flex items-center justify-center lg:flex lg:items-center lg:justify-center pt-[72px] pb-10 lg:pb-10 md:pb-0 md:pt-0 lg:pt-[72px] ">
+                <img src="pictures/coffee-bean.png" alt="coffee">
+              </div>
+
+              <div class="text-center lg:text-center text-lightC pb-[46px] lg:pb-[46px] md:pb-0 md:text-start">
+                <h2 class="text-3xl font-bold  mb-[24px]">Best quality</h2>
+                <p class="font-Barl text-[15px] leading-[25px]" >Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+              </div>
+
+            </div>
+          </div>  
+
+          <div class="bg-Darkcyan rounded-lg w-[350px] h-[382px]  lg:w-[350px] lg:h-[382px] md:w-[573px] md:h-auto ">
+            <div class="mx-[47px] lg:mx-[47px] lg:flex-none md:ml-[70px] md:flex md:items-center md:justify-center md:space-x-10 md:py-[42px] lg:space-x-0 lg:py-0">
+
+              <div class="flex items-center justify-center lg:flex lg:items-center lg:justify-center pt-[72px] pb-10 lg:pb-10 md:pb-0 md:pt-0 lg:pt-[72px] ">
+                <img src="pictures/Combined Shape (1).png" alt="coffee">
+              </div>
+
+              <div class="text-center lg:text-center text-lightC pb-[46px] lg:pb-[46px] md:pb-0 md:text-start">
+                <h2 class="text-3xl font-bold  mb-[24px]">Exclusive benefits</h2>
+                <p class="font-Barl text-[15px] leading-[25px]" >Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+              </div>
+
+            </div>
+          </div> 
+
+          <div class="bg-Darkcyan rounded-lg w-[350px] h-[382px]  lg:w-[350px] lg:h-[382px] md:w-[573px] md:h-auto ">
+            <div class="mx-[47px] lg:mx-[47px] lg:flex-none md:ml-[70px] md:flex md:items-center md:justify-center md:space-x-10 md:py-[42px] lg:space-x-0 lg:py-0">
+
+              <div class="flex items-center justify-center lg:flex lg:items-center lg:justify-center pt-[72px] pb-10 lg:pb-10 md:pb-0 md:pt-0 lg:pt-[72px] ">
+                <img src="pictures/Combined Shape.png" alt="coffee">
+              </div>
+
+              <div class="text-center lg:text-center text-lightC pb-[46px] lg:pb-[46px] md:pb-0 md:text-start">
+                <h2 class="text-3xl font-bold  mb-[24px]">Free shipping</h2>
+                <p class="font-Barl text-[15px] leading-[25px]" >We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+              </div>
+
+            </div>
+          </div> 
+
+        </div>
+      </section>
+      <!-- Ending of the section -->
+
+      <section class=" md:top-[300px] lg:top-[150px] md:mx-[39px] lg:mx-[165px]">
+        <div class="text-Grey text-center md:text-start text-3xl font-bold mb-[80px]">
+          <h2>How it works</h2>
+        </div>
+        <div class="lg:mb-[82px] md:mb-[48px] d-none d-md-block hidden md:block ">
+          <img src="https://i.postimg.cc/CxRqMP61/Group-16.webp" alt="icon">
+        </div>
+
+        <section class=" mx-[24px] md:flex md:gap-x-10 md:mx-0 lg:gap-x-[95px] ">
+
+          <div class="space-y-[24px] text-center text-Darkgb mb-[56px] md:text-start md:space-y-[38px]">
+            <h2 class="text-7xl font-extrabold text-Paleorange  ">01</h2>
+            <h3 class=" text-3xl font-bold ">Pick your <br class="hidden lg:block "> coffee</h3>
+            <p class="text-[15px] leading-[25px] font-Barl"> Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+          </div>
+
+          <div class="space-y-[24px] text-center text-Darkgb mb-[56px] md:text-start md:space-y-[38px]">
+            <h2 class="text-7xl font-extrabold text-Paleorange  ">02</h2>
+            <h3 class=" text-3xl font-bold ">Choose the <br class="hidden lg:block "> frequency</h3>
+            <p class="text-[15px] leading-[25px] font-Barl">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+          </div>
+
+          <div class="space-y-[24px] text-center text-Darkgb mb-[79px] md:text-start md:space-y-[38px]">
+            <h2 class="text-7xl font-extrabold text-Paleorange  ">03  </h2>
+            <h3 class=" text-3xl font-bold ">Receive and <br class="hidden lg:block "> enjoy!</h3>
+            <p class="text-[15px] leading-[25px] font-Barl">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
+              world-class coffees curated to provide a distinct tasting experience.</p>
+          </div>
+        </section> 
+
+        <div class="flex justify-center items-center md:justify-start ">
+          <button class="text-lightC text-[18px] font-bold bg-Darkcyan rounded py-[15px] px-[31px] rounded ">
+            Create your plan
+          </button>
+        </div>
+      </section>
+      <!-- Ending of the section -->
+    </main>
+
+    <footer class="bg-Darkgb space-y-[42px] lg:space-y-0 lg:justify-between lg:mx-[80px] lg:mt-[200px] lg:px-[85px] py-[52px] mx-[24px] md:mx-[40px] lg:flex lg:items-center relative md:top-[380px] lg:top-[150px] top-[790px]">
+      <div class="lg:flex lg:items-center lg:gap-[102px]  ">
+        <div class="flex justify-center lg:flex-none lg:block ">
+            <img src="pictures/Group 5.png" alt="Logo" class="w-[200px]">
+          </div>
+          <div>
+            <ul class=" mt-10 lg:mt-0 space-y-[24px] lg:space-y-0 md:space-y-0 md:mb-[65px] lg:text-left lg:ml-10 lg:mb-0 text-[12px] text-Grey font-Barl font-bold md:flex md:justify-center md:items-center md:gap-x-10 lg:items-center text-center ">
+              <li><a href="page1.html">HOME</a></li>
+              <li><a href="page2.html">ABOUT US</a></li>
+              <li>CREATE YOUR PLAN</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-3xl text-lightC flex gap-4 justify-center">
+          <i class="ri-facebook-box-fill"></i>
+          <i class="ri-twitter-fill"></i>
+          <i class="ri-instagram-line"></i>
+        </div>
+  </footer>
+</body>
+</html>
